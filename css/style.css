@@ -8,6 +8,7 @@
     padding: 20px;
     display: flex;
 }
+
 a {
     color: inherit;
     text-decoration: none;
@@ -18,12 +19,14 @@ img {
 }
 h1 {
     font-family: Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 40px;
     color: white;
     text-align: center;
 }
 h2 {
     font-family: Helvetica, sans-serif ;
+    font-size: 33px;
+    padding-top: 10px;
 }
 p {
     font-family: sans-serif;
@@ -54,7 +57,8 @@ p {
     background-color: white;
     color: black;
     padding: 10px;
-    border-radius: 15px; 
+    border-radius: 15px;
+    margin-right: 20px; 
 }
 .ul {
     width: 100%;
@@ -62,8 +66,8 @@ p {
     display: flex;
     justify-content: center;
 }
-
 .content-list{
+    font-size: .9rem;
     width: 50%;
     color: white;
     list-style-type: none;
@@ -99,12 +103,12 @@ p {
 .blocks-section-first {
     height: 300px;
     width: 300px;
-    padding-top: 20px;
 }
 .padding-paragraph {
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9rem;
+    line-height: 28px;
 }
 .theme {
     background-color: #f6f6f6;
@@ -134,14 +138,14 @@ p {
     text-align: center;
 }
 .content-final h3 {
-    padding-top: 20px;
+    padding-top: 5px;
     font-family: Helvetica, sans-serif;
 }
 .final-button {
     background-color:#7289da ;
     width: 150px;
-    height: 30px;
-    border-radius: 15px;
+    height: 40px;
+    border-radius: 20px;
     margin-top: 20px;
     border: none;
     color: white;
@@ -153,14 +157,16 @@ p {
     display: flex;
 }
 .grid { 
-    height: 300px;
     width: 180px;
+    line-height: 34px;
+    padding-bottom: 30px;
 }
 .luca-container {
     width: 700px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid white ;
 }
 .grid:first-child {
     width: calc(100% / 5 * 2 );
@@ -170,10 +176,8 @@ p {
     height: 90px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
 .i-footer {
-    background-color:#7fffd4;
     height: 70px;
     width: 700px;
     display: flex;
@@ -196,8 +200,6 @@ p {
     color: #7189da;
 }
 .buttons {
-    background-color: #ffb6c0;
-    border: 1px dashed black;
     display: flex;
     justify-content: space-around;
     align-self: center;
@@ -213,10 +215,13 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
-.row {
-    height: 2px;
-    width: 80%;
-    color: #7189da;
+.i-footer  .right {
+    font-family: Helvetica, sans-serif;
+    font-size: .8rem;
+    border-radius: 20px;
+    background-color: #7189da;
+    color: white;
+    border: none;
 }
